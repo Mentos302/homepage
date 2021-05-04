@@ -26,3 +26,28 @@ main {
     text-align: right;
     font-size: 15px;
 }
+.page{
+    border-color: darkred;
+}
+.themeSwitcher{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.themeSwitcher button{
+    color: #fff;
+    background: 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+.muggleVersion{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    display: none;
+}
+.muggleVersion img{
+    height: 300px;
+}
