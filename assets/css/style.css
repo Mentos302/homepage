@@ -1,0 +1,16 @@
+main {
+    background-image: linear-gradient(to top, black 0%, darkred 100%) !important;
+}
+.titleImage{
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+}
+.titleImage img{
+    width: 100%;
+    border: 5px solid black;
+    height: fit-content;
+}
+.stackable.grid.primaryInfo div {
+    padding: 0;
+}
