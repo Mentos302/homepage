@@ -1,12 +1,12 @@
 main {
     background-image: linear-gradient(to top, black 0%, darkred 100%) !important;
 }
-.titleImage{
+.titleImage {
     align-items: center;
     overflow: hidden;
     display: flex;
 }
-.titleImage img{
+.titleImage img {
     width: 100%;
     border: 5px solid black;
     height: fit-content;
@@ -22,32 +22,32 @@ main {
     letter-spacing: 1px;
     text-align: center;
   }
-.clientQuote p{
+.clientQuote p {
     text-align: right;
     font-size: 15px;
 }
-.page{
+.page {
     border-color: darkred;
 }
-.themeSwitcher{
+.themeSwitcher {
     position: absolute;
     top: 10px;
     right: 10px;
 }
-.themeSwitcher button{
+.themeSwitcher button {
     color: #fff;
     background: 0;
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 5px;
 }
-.muggleVersion{
+.muggleVersion {
     background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
     justify-content: center;
     height: 100vh;
     align-items: center;
     display: none;
 }
-.muggleVersion img{
+.muggleVersion img {
     height: 300px;
 }
